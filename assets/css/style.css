@@ -1,0 +1,40 @@
+/* setting the default font for all text */
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+/* setting the background color as lemon chiffon*/
+body {
+  background-color: lemonchiffon;
+}
+
+/* set header and footer dimensions and colors*/
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+
+/*determining the dimensions and properties of the image*/
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+#pfp {
+  width: 200px;
+  height:267px;
+}
+
+/* making the text bolder with class "highlighted-text" */
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* setting the background color of the contact section */
+#contact-section {
+  background-color: #f0ead6;
+}
