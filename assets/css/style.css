@@ -6,7 +6,7 @@
 header{
   display: flex;
   height: 100px;
-  background-color: beige;
+  background-color: lightsteelblue;
   
 } 
 header #left-side{
@@ -79,12 +79,16 @@ header #right-side a{
 }
 main{
   height: 2300px;
+  margin: auto;
 }
+
+
 footer{
   display: flex;
   justify-content: space-between;
   height: 140px;
   text-align: center;
+  background-color: lightsteelblue;
 }
 
 footer #left-side, footer #right-side, footer #links{
@@ -98,16 +102,19 @@ footer #left-side, footer #right-side, footer #links{
 footer #left-side{
   order:1;
 }
+
 footer #right-side{
   order:3;
 }
+
 footer #links{
   order: 2;
 }
+
 footer #links a{
   order: 2;
   padding: 50px 30px 40px 30px;
 }
-/*TODO: make ui responsive hover, create device accessibility*/
+/*TODO: make ui responsive hover, create device accessibility, change the footer padding when you view on phone, change */
 
 
