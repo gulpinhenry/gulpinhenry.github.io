@@ -37,6 +37,7 @@ header #right-side a{
   display:block;
   justify-content: center;
   background-image: linear-gradient(white, gray);
+  margin-top: 100px;
 }
 
 #banner{
@@ -82,6 +83,45 @@ main{
   margin: auto;
 }
 
+#about-me{
+  max-width: 1200px;
+  margin: 100px 10% 0px 10%;
+  display: block;
+  text-align: left;
+
+}
+
+#about-me h2{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  text-decoration: none solid rgb(3,0,48);
+  margin: 20px 0 10px 0;
+}
+
+#about-me p{
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none solid rgb(3,0,48);
+  max-width: 850px;
+  margin: 10px 0px 10px 0px;
+}
+
+#about-me input{
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 20px;
+  background-image: linear-gradient(to left, rgb(212, 201, 201), rgb(138, 122, 122) 50%, #eee 75%, rgb(167, 157, 157) 100%);
+  height: 40px;
+  width: 245px;
+  margin-top: 25px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 15px;
+}
+
 
 footer{
   display: flex;
@@ -115,6 +155,6 @@ footer #links a{
   order: 2;
   padding: 50px 30px 40px 30px;
 }
-/*TODO: make ui responsive hover, create device accessibility, change the footer padding when you view on phone, change */
+/*TODO: make ui responsive hover shadow on button, create device accessibility, change the footer padding when you view on phone, change */
 
 
