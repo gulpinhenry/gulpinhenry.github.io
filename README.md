@@ -1,5 +1,5 @@
 
-# Personal Website
+# Professional Portfolio
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -8,7 +8,7 @@
 
 ## Table of Contents
 
-- [Personal Website](#personal-website)
+- [Professional Portfolio](#professional-portfolio)
   - [Not available yet-See the deployment](#not-available-yet-see-the-deployment)
   - [Table of Contents](#table-of-contents)
   - [About the Project](#about-the-project)
@@ -18,7 +18,7 @@
   - [Questions](#questions)
 
 ## About the Project
- My first website
+ My Professional Portfolio, first self designed website
 
 ## Technologies
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
