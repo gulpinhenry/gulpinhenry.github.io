@@ -9,20 +9,20 @@ header{
   background-color: beige;
   
 } 
-#left-side{
+header #left-side{
   margin: auto auto;
   flex: 1;
   font-size: 300%;
 }
 
-#right-side{
+header #right-side{
   margin: auto auto;
   display: flex;
   justify-content: flex-end;
   font-size: 14px;
 }
 
-#right-side a {
+header #right-side{
   margin: 10px 10px 10px 10px;
   padding: 10px 10px 10px 10px;
 }
@@ -74,7 +74,34 @@ header{
 main{
   height: 2300px;
 }
-
 footer{
-
+  display: flex;
+  justify-content: space-between;
+  height: 140px;
+  text-align: center;
 }
+
+footer #left-side, footer #right-side, footer #links{
+  font-family: "Space Mono", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none solid rgb(18,18,18);
+  padding: 50px 30px 40px 30px;
+}
+
+footer #left-side{
+  order:1;
+}
+footer #right-side{
+  order:3;
+}
+footer #links{
+  order: 2;
+}
+footer #links a{
+  order: 2;
+  padding: 50px 30px 40px 30px;
+}
+
+
+
