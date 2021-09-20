@@ -208,7 +208,7 @@ footer{
   background-color: rgb(61, 67, 77);
 }
 
-footer #left-side, footer #right-side, footer #links{
+footer #left-side, footer #right, footer #links{
   font-family: "Space Mono", sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -220,8 +220,12 @@ footer #left-side{
   order:1;
 }
 
-footer #right-side{
+footer #right{
   order:3;
+  
+}
+footer #right a {
+  text-decoration: none;
 }
 
 footer #links{
@@ -232,6 +236,21 @@ footer #links a{
   color: azure;
   order: 2;
   padding: 50px 30px 40px 30px;
+}
+footer #links a:link {
+  text-decoration: none;
+}
+
+footer #links a:visited {
+  text-decoration: none;
+}
+
+footer #links a:hover {
+  text-decoration: none;
+}
+
+footer #links a:active {
+  text-decoration: none;
 }
 
 input:hover {
@@ -245,6 +264,7 @@ a:hover{
 .box:hover{
   
   border: 2px solid rgb(138, 122, 122);
+  border-radius: 15px;
   
 }
 #first-box:hover #first{
@@ -260,7 +280,7 @@ a:hover{
   header{
     flex-direction: column;
   }
-  footer #left-side, footer #right-side, footer #links{
+  footer #left-side, footer #right, footer #links{
 
     padding: 50px 0px 40px 0px;
   }
