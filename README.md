@@ -19,6 +19,7 @@
 
 ## About the Project
  My Professional Portfolio, first self designed website
+ ![snapshot of website](./assets/images/Capture.JPG)  
 
 ## Technologies
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)

@@ -134,7 +134,7 @@ main{
 }
 #my-work #work-container figcaption  { /*its something here*/
   text-align: center;
-  
+  height: 150px;
   background-color: wheat;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -224,8 +224,8 @@ footer #right{
   order:3;
   
 }
-footer #right a {
-  text-decoration: none;
+footer #right a[href^="mailto:"]  {
+  color: azure;
 }
 
 footer #links{
@@ -236,21 +236,6 @@ footer #links a{
   color: azure;
   order: 2;
   padding: 50px 30px 40px 30px;
-}
-footer #links a:link {
-  text-decoration: none;
-}
-
-footer #links a:visited {
-  text-decoration: none;
-}
-
-footer #links a:hover {
-  text-decoration: none;
-}
-
-footer #links a:active {
-  text-decoration: none;
 }
 
 input:hover {
@@ -286,4 +271,5 @@ a:hover{
   }
 
 }
+
 
