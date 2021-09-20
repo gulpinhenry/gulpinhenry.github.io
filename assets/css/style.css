@@ -108,8 +108,7 @@ main{
   height: auto;
   max-width: 570px;
   
-} /*TODO:
- hover effects */
+} 
 
 #my-work #work-container {
   display: flex;
@@ -131,10 +130,11 @@ main{
   border-top-right-radius: 15px;
   height: auto;
   width: 100%;
-  opacity: 80%;
+  opacity: 60%;
 }
-#my-work #work-container figcaption  {
+#my-work #work-container figcaption  { /*its something here*/
   text-align: center;
+  
   background-color: wheat;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -233,6 +233,28 @@ footer #links a{
   order: 2;
   padding: 50px 30px 40px 30px;
 }
-/*TODO: make ui responsive hover shadow on button, change opacity of images to 100 when hover, create device accessibility, change the footer padding when you view on phone, change */
+/*TODO:, create device accessibility, change the footer padding when you view on phone, change */
+input:hover {
+  box-shadow: 5px 5px 10px 5px darkslategray;
+}
+
+a:hover{
+  font-weight:600;
+}
+
+.box:hover{
+  
+  border: 2px solid rgb(138, 122, 122);
+  
+}
+#first-box:hover #first{
+  
+  opacity: 100%;
+}
+#sec-box:hover #sec{
+  
+  opacity: 100%;
+  
+}
 
 
