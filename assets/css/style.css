@@ -87,9 +87,82 @@ main{
   margin: auto;
 }
 
+#my-work{
+  max-width: 1200px;
+  margin: 100px 10% 100px 10%;
+  display: block;
+  text-align: left;
+}
+
+#my-work #title {
+  font-family: "DM Mono", sans-serif;
+  font-size: 32px;
+  font-weight: 700px;
+  line-height: 36px;
+  text-decoration: none solid rgb(3,0,48);
+  height: 36px;
+  margin: 100px 0 50px 0;
+}
+
+#my-work .box{
+  height: auto;
+  max-width: 570px;
+  
+} /*TODO:
+ hover effects */
+
+#my-work #work-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch; /*not sure why this doesn't work*/
+}
+
+#my-work #work-container .box {
+
+  width: 570px;
+  margin: 30px 15px 30px 15px;
+  
+  
+}
+
+#my-work #work-container .work-img  {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: auto;
+  width: 100%;
+  opacity: 80%;
+}
+#my-work #work-container figcaption  {
+  text-align: center;
+  background-color: wheat;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#my-work #work-container figcaption a  {
+  font-family: "DM Sans", sans-serif;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 34px;
+  text-decoration: none solid rgb(3,0,48);
+}
+
+#my-work #work-container figcaption p  {
+  font-family: "DM Sans", sans-serif;
+  color: gray;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-decoration: none solid rgb(3,0,48);
+  padding: 10px 10px 20px 10px;
+}
+
 #about-me{
   max-width: 1200px;
   margin: 100px 10% 0px 10%;
+  padding-bottom: 150px;
   display: block;
   text-align: left;
 
@@ -160,6 +233,6 @@ footer #links a{
   order: 2;
   padding: 50px 30px 40px 30px;
 }
-/*TODO: make ui responsive hover shadow on button, create device accessibility, change the footer padding when you view on phone, change */
+/*TODO: make ui responsive hover shadow on button, change opacity of images to 100 when hover, create device accessibility, change the footer padding when you view on phone, change */
 
 
