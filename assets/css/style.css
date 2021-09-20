@@ -233,7 +233,7 @@ footer #links a{
   order: 2;
   padding: 50px 30px 40px 30px;
 }
-/*TODO:, create device accessibility, change the footer padding when you view on phone, change */
+
 input:hover {
   box-shadow: 5px 5px 10px 5px darkslategray;
 }
@@ -254,7 +254,16 @@ a:hover{
 #sec-box:hover #sec{
   
   opacity: 100%;
-  
 }
+/*TODO: add design */
+@media screen and (max-width: 768px) {
+  header{
+    flex-direction: column;
+  }
+  footer #left-side, footer #right-side, footer #links{
 
+    padding: 50px 0px 40px 0px;
+  }
+
+}
 
