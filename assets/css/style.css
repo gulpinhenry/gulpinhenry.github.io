@@ -83,7 +83,6 @@ header #right-side a{
   
 }
 main{
-  /*height: 2300px;*/
   margin: auto;
 }
 
@@ -114,7 +113,6 @@ main{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: stretch; /*not sure why this doesn't work*/
 }
 
 #my-work #work-container .box {
@@ -132,7 +130,7 @@ main{
   width: 100%;
   opacity: 60%;
 }
-#my-work #work-container figcaption  { /*its something here*/
+#my-work #work-container figcaption  { 
   text-align: center;
   height: 150px;
   background-color: wheat;
